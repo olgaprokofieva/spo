@@ -1,6 +1,6 @@
 (1)
-let name = "Vika";
-let surname = "Stacenko";
+let name = "Olga";
+let surname = "Simonenko";
 let age = 18;
 let person = name + " " + surname + ". " + age + "лет.";
 console.log(person);
@@ -107,50 +107,50 @@ VM1858:1 1
 VM1858:1 2
 (11)
 let User = {
-    name: "Vika",
-    lastname: "Stacenko",
+    name: "Olga",
+    lastname: "Simonenko",
     age : 18,
 };
 undefined
 for (key in User) {
     console.log(`${key} = ${User[key]}`);
 }
-VM2175:2 name = Vika
-VM2175:2 lastname = Stacenko
+VM2175:2 name = Olga
+VM2175:2 lastname = Simonenko
 VM2175:2 age = 18
 (12)
 let user = {
-    name: "Vika",
-    lastname: "Stacenko",
+    name: "Olga",
+    lastname: "Simonenko",
     age: 18
 };
 undefined
 user
-{name: 'Vika', lastname: 'Stacenko', age: 18}
+{name: 'Olga', lastname: 'Simonenko', age: 18}
 user.name
-'Vika'
+'Olga'
 user.age
 18
 (13)
 delete user.age
 true
 user
-{name: 'Vika', lastname: 'Stacenko'}
+{name: 'Olga', lastname: 'Simonenko'}
 (14)
     let user = {
-    name: "Vika",
-    lastname: "Stacenko",
+    name: "Olga",
+    lastname: "Simonenko",
     whoami: function() {
         console.log("My name " + this.name + " " + this.lastname);
     }
 };
 undefined
 user.whoami()
-VM2852:5 My name Vika Stacenko
+VM2852:5 My name Olga Simonenko
 (15)
 let user = {
-    [propertyName]: "Vika",
+    [propertyName]: "Olga",
 };
 undefined
 user.firstname
-'Vika'
+'Olga'
