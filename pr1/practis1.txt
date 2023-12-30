@@ -4,7 +4,7 @@ let surname = "Simonenko";
 let age = 18;
 let person = name + " " + surname + ". " + age + "лет.";
 console.log(person);
-Vika Stacenko. 18лет.
+Olga Simonenko. 18лет.
 (2)
 let n1 = "20";
 undefined
